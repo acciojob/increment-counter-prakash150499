@@ -1,5 +1,5 @@
 //your JS code here. If required.
-document.addEventListener('DOMContentLoaded', function() {
+
       // Get the counter and button elements
       const counterElement = document.getElementById('counter');
       const incrementBtn = document.getElementById('incrementBtn');
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Function to handle button click
       function handleIncrementClick() {
         // Display an alert with the current counter value before incrementing
-        alert(`Current Counter Value: ${counterValue}`);
+        alert(counterValue);
 
         // Increment the counter value
         counterValue++;
@@ -21,4 +21,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Attach the click event listener to the button
       incrementBtn.addEventListener('click', handleIncrementClick);
-    });
